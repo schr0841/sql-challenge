@@ -1,13 +1,13 @@
-Content for Module 9 Challenge in the University of Minnesota Data Analytics Bootcamp
+# Content for Module 9 Challenge in the University of Minnesota Data Analytics Bootcamp
 
-SQL database analysis using pgadmin4 / postgreSQL16
+## SQL database analysis using pgadmin4 / postgreSQL16
 
-- ERD diagram included as ERD.png
+### ERD diagram included as ERD.png
 
 ![erd](https://github.com/schr0841/sql-challenge/blob/main/ERD.png)
 
 
-- schema for tables included as schema.sql
+### schema for tables included as schema.sql
 
 ```sql
 DROP TABLE IF EXISTS titles CASCADE;
@@ -68,7 +68,7 @@ FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 ```
 
 
-- queries for results included as queries.sql
+### queries for results included as queries.sql
 
 ```sql
 --Analysis
@@ -131,19 +131,28 @@ ORDER BY COUNT(last_name) DESC;
 ```
 
 
-- Image files for each analysis question output included as Q(#)Analysis.png
+## Image files for each analysis question output included as Q(#)Analysis.png
+
+### Q1 List the employee number, last name, first name, sex, and salary of each employee.
 ![q1](https://github.com/schr0841/sql-challenge/blob/main/Q1Analysis.png)
 
+### Q2 List the first name, last name, and hire date for the employees who were hired in 1986.
 ![q2](https://github.com/schr0841/sql-challenge/blob/main/Q2Analysis.png)
 
+### Q3 List the manager of each department along with their department number, department name, employee number, last name, and first name.
 ![q3](https://github.com/schr0841/sql-challenge/blob/main/Q3Analysis.png)
 
+### Q4 List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 ![q4](https://github.com/schr0841/sql-challenge/blob/main/Q4Analysis.png)
 
+### Q5 List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
 ![q5](https://github.com/schr0841/sql-challenge/blob/main/Q5Analysis.png)
 
+### Q6 List each employee in the Sales department, including their employee number, last name, and first name.
 ![q6](https://github.com/schr0841/sql-challenge/blob/main/Q6Analysis.png)
 
+### Q7 List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 ![q7](https://github.com/schr0841/sql-challenge/blob/main/Q7Analysis.png)
 
+### Q8 List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name)
 ![q8](https://github.com/schr0841/sql-challenge/blob/main/Q8Analysis.png)
